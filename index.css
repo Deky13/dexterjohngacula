@@ -96,7 +96,7 @@ nav ul li a{
 	flex-direction: row;
 }
 
-.arrow-icons a {
+.arrow-icons img {
 	margin-top: 5px;
 	margin-right: 10px; 	
 }
@@ -106,6 +106,46 @@ nav ul li a{
 	position: absolute;
 	bottom: 0;
 	right: 160px;
+}
+
+@media screen and (max-width: 768px) {
+	.feature-img {
+		display: none;
+	}
+	.navbar {
+		width: auto;
+		height: 10vh;
+		margin: auto;
+		display: flex;
+		align-items: center;
+	}
+	nav {
+		flex: 1;
+		padding-left: 5px;
+	}
+	.content h1 {
+		font-size: 50px;
+		font-weight: 100;
+		line-height: 44px;
+		margin-top: 24px;
+		margin-bottom: 5px;
+		color: #FFF;
+	}
+	.content p {
+		font-size: 15px;
+		font-weight: 100;
+		line-height:34px;
+		margin-top: 5px;
+		margin-bottom: 5px;
+		color: #FFF;
+	}
+	.content{
+		margin-left: 5%;
+		margin-top: 5%;
+	}
+
+
+
 }
 
 
